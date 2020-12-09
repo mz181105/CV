@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+  }
+body {
+    color: #000;
+    margin: auto;
+    font: 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+  }
+header {
+  padding-top: 170px;
+  height: 850px;
+  background: linear-gradient(skyblue, transparent 90%),
+  linear-gradient(0deg, #fff, transparent),
+  url(../img/header.jpg) no-repeat center;
+  background-size: cover;
+}
+h1 {
+    font-size: 5.625rem; /* 90px/16px  */
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: bold;
+    line-height: 1.3;
+    text-shadow: 0 1px 1px rgba(0,0,0, .8);
+  }
+ul, 
+li{
+  display: inline;
+  padding: 0 50px;
+}
+img {
+    width: 35%;
+    margin: 50px 50px;
+    border-radius: 50%;
+    padding: 30px 50px;
+}
+footer {
+  padding: 100px 30px;
+  border-bottom: 10px solid skyblue;
+  
+}
+.intro {
+  font-size: 3rem;
+  color: #fff;
+  text-transform: capitalize;
+  line-height: 1.3;
+}
+.autobiography {
+    font-size: 1.25em;
+    width: 50%;
+    margin: 180px 90px 60px;
+    border-style: double;
+    padding: 50px 70px;
+    text-align: left;
+    line-height: 1.5;
+    }
+img,
+.autobiography {
+  display: inline-table;
+}
+a:link {
+    color: rgb(53, 115, 231);
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  a:visited {
+    color: darkblue;
+  }
+  
+  a:hover {
+    color: yellowgreen;
+  }
+  
+  a:active {
+    color: lightcoral;
+  }
+  @media (max-width: 1024px) {
+    body { 
+      width: 90%;}
+  }
+  @media (max-width: 768px) {
+    body { 
+      width: 100%;
+      padding: 20px;
+      border: none;}
+    .main-header {
+      max-height: 380px;
+      padding: 50px 25px 0;
+    }
+    .title {
+      font-size: 1.3rem;
+      border: none;
+    }
+    h1 {
+      font-size: 5rem;
+      line-height: 1.1;
+    }
+    img,
+    li {
+      display: none;
+    }
+  }
+  <meta name="viewpoint" content="width= device-width">
+
